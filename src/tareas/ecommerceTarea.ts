@@ -20,3 +20,28 @@ export function filtrarPorCategoria(listaDeProductos: Producto[], categoria: str
     }
   }
 }
+
+
+//Obtener productos con stock por debajo de 5
+
+export function stockMenorDeCinco(listaDeProductos:Producto[]): void{
+  listaDeProductos.filter(p => p.stock  < 5)
+  .map((p) => p.nombre)
+  .forEach((nombre) => console.log(nombre))
+};
+
+//Crar una funcion que agregue productos al carrito
+
+export function agregarAlCarrito(carrito:Carrito): void {
+   const producto6:Producto = {
+    id: 6,
+    nombre: "Hamburguesa",
+    precio: 2000,
+    categoria: "Comida",
+    stock: 1
+   };
+
+   carrito.productos.push(producto6);
+   carrito.total += producto6.precio;
+   console.log(carrito)
+}

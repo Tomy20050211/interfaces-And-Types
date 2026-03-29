@@ -7,7 +7,7 @@ export const producto1:Producto = {
     nombre: "Pizza",
     precio: 3000,
     categoria: "Comida",
-    stock: 30
+    stock: 1
 };
 
 export const producto2:Producto = {
@@ -15,14 +15,14 @@ export const producto2:Producto = {
     nombre: "Celular",
     precio: 700000,
     categoria: "Electricidad",
-    stock: 200
+    stock: 10
 };
 export const producto3:Producto = {
     id: 3,
     nombre: "Camisa Roja",
     precio: 30000,
     categoria: "Ropa",
-    stock: 3000
+    stock: 3
 };
 export const producto4:Producto = {
     id: 4,
