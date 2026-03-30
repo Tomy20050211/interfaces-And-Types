@@ -1,4 +1,4 @@
-import type { Orden, Pago } from "../interfaces/ordenesInterface.js";
+import type { Orden } from "./ordenes.interface.js";
 
 //Creacion individual de ordenes, relacionando ambas interfaces
 

@@ -1,5 +1,5 @@
-import { producto1, producto2, producto3, producto4, producto5, carrito } from "../data/ecommerceData.js";
-import type { Producto, Carrito } from "../interfaces/ecommerceInterface.js";
+import { producto1, producto2, producto3, producto4, producto5 } from "./ecommerce.data.js";
+import type { Producto, Carrito } from "./ecommerce.interface.js";
 
 //creacion de un array que guarde mis productos
 

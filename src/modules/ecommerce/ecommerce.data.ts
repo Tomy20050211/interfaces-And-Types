@@ -1,4 +1,4 @@
-import type { Producto,Carrito  } from "../interfaces/ecommerceInterface.js";
+import type { Producto, Carrito } from "./ecommerce.interface.js";
 
 //Creacion de varios productos individuales usuando la interfaz de producto
 

@@ -3,31 +3,31 @@ import {
   filtrarUsuariosActivos,
   usuarios,
   usuariosAdmin,
-} from "./tareas/sistemaDeUsuariosTarea.js";
+} from "./modules/usuarios/usuarios.tarea.js";
 import {
   agregarAlCarrito,
   filtrarPorCategoria,
   listaDeProductos,
   mostrarTotal,
   stockMenorDeCinco,
-} from "./tareas/ecommerceTarea.js";
-import { carrito } from "./data/ecommerceData.js";
+} from "./modules/ecommerce/ecommerce.tarea.js";
+import { carrito } from "./modules/ecommerce/ecommerce.data.js";
 import {
   arrayProyectos,
   desarrolladores,
   proyecto1,
-} from "./data/equipoDesarrolloData.js";
+} from "./modules/equipo-desarrollo/equipoDesarrollo.data.js";
 import {
   contarIssues,
   encontrarDesarrollador,
   filtrarPorHabilidad,
   mostrarProyecto,
-} from "./tareas/equipoDesarrolloTarea.js";
+} from "./modules/equipo-desarrollo/equipoDesarrollo.tarea.js";
 
 import {
  ordenesPorEstado,
- } from "./tareas/ordenesTarea.js";
-import { arrayOrdenes } from "./data/ordenesData.js";
+ } from "./modules/ordenes/ordenes.tarea.js";
+import { arrayOrdenes } from "./modules/ordenes/ordenes.data.js";
 
 
 // =========================================================

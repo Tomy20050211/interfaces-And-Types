@@ -1,5 +1,4 @@
-import type { Orden, Pago } from "../interfaces/ordenesInterface.js";
-import { arrayOrdenes } from "../data/ordenesData.js";
+import type { Orden } from "./ordenes.interface.js";
 
 //Filtrar ordenes por estado
 

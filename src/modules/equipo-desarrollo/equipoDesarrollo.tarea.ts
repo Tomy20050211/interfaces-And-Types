@@ -1,4 +1,4 @@
-import type { Proyecto, Desarrolladores } from "../interfaces/equipoDesarrolloInterface.js";
+import type { Proyecto, Desarrolladores } from "./equipoDesarrollo.interface.js";
 
 
 // mostrar tood el proyecto

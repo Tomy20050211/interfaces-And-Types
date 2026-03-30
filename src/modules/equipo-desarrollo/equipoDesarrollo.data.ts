@@ -1,4 +1,4 @@
-import type { Proyecto, Desarrolladores } from "../interfaces/equipoDesarrolloInterface.js";
+import type { Proyecto, Desarrolladores } from "./equipoDesarrollo.interface.js";
 
 //Creacion individual de desarrolladores siguiendo la interfaz 
 export const dev1: Desarrolladores = {

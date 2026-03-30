@@ -1,5 +1,5 @@
-import { usuario1, usuario2, usuario3, usuario4 } from '../data/sistemaDeUsuariosData.js';
-import type { Usuario } from '../interfaces/sistemaDeUsuariosInterface.js';
+import { usuario1, usuario2, usuario3, usuario4 } from "./usuarios.data.js";
+import type { Usuario } from "./usuarios.interface.js";
 
 // Guardar mis usuarios en una lista
 export const usuarios: Usuario[] = [usuario1, usuario2, usuario3, usuario4];

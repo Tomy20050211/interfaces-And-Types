@@ -1,4 +1,4 @@
-import type { Rol, Usuario } from '../interfaces/sistemaDeUsuariosInterface.js';
+import type { Usuario } from "./usuarios.interface.js";
 
 //Creacion de usuarios usando la interfaz de usuario
 
